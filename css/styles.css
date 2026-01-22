@@ -561,15 +561,14 @@ img {
 
 .newsletter-form {
   display: flex;
-  outline: 2px solid var(--accent);
-  flex-direction: column;
+  align-items: center;
   gap: 0.5rem;
-  max-width: 320px;
 }
 
 .newsletter-form label {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #666;
+  white-space: nowrap;
 }
 
 .newsletter-form input {
